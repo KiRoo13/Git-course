@@ -1,30 +1,47 @@
-body {font-family: sans-serif;}
+* {
+   margin: 0;
+   padding: 0;
+   }
+
+   .container {
+      width: 1140px;
+      margin: 0 auto;
+   }
+
+body {font-family: sans-serif;
+
+}
 
 .paragraf {
    font-size: 16px;
    line-height: 26px;
    color: #1F3F68;
+   width: 425px;
 }
 
 .heading {
    font-size: 64px;
-   color: #1F3F68
+   color: #1F3F68;
+   width: 510px;
 }
 
 .heading_1 {font-weight: 500;
       font-size: 44px;
       text-align: center;
+      width: 340px;
    }
 
    .heading_2 {
       font-size: 36px;
    text-align: center;
+   width: 340px;
    }
 
    .heading_3 {
       font-size: 20px;
    line-height: 30px;
    color: #1F3F68;
+   width: 340px;
    }
 
    .input {
@@ -46,4 +63,51 @@ body {font-family: sans-serif;}
    text-transform: uppercase
    }
 
+   .center_form{
+   text-align: center;
+   }
+
+   .main_nav_menu {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .what-we-do_container {
+   display: flex;
+   justify-content:space-around;
+   }
+   .what-we-do{
+      text-align: center;
+   }
+
+   .chapter_2_up_and {
+      width: 495px;
+   }
+
+   .chapter_card_1 {
+   width:  359px;
+   }
+
+   .chapter_card_2 {
+   width:  359px;
+   }
+
+   .chapter_card_3 {
+   width:   359px;
+   }
+
+.list {
+   display: flex;
+   justify-content: space-around;
+}
+
+.center {
+display: flex;
+justify-content: center;
+}
+
+.center_contact{
+   
+   flex-direction: column;
+}
 
