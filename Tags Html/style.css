@@ -61,7 +61,7 @@ flex-direction: column;
 .main_nav_introduction{
    margin-top: 115px;
    flex-flow: 1;
-   background-image: url(/img/bakc.png);
+   background-image: url(../img/bakc.png);
    background-repeat: no-repeat;
    background-position: right center;
    background-size: 350px 350px;
@@ -245,18 +245,18 @@ justify-content: center;
 }
 
 .footer {
-background-image: url(/img/Rectangle\ 4.png);
+background-image: url(../img/Rectangle\ 4.png);
 margin-top: 112px;
 }
 
-.footer__container {
+.footer__capter {
    height: 391px;
 }
 .flex__container {
    display: flex;
    align-items: center;
-   flex-direction: column;
-
+   justify-content: space-around;
+   padding-top: 32px;
 
 }
 .flex_h {
@@ -265,8 +265,7 @@ margin-top: 112px;
    letter-spacing: 0.05em;
    color: #FFFFFF;
    align-self: flex-start;
-   margin-top: 91px;
-   margin-left: 113px;
+
 }
 .flex_text {
    font-size: 16px;
@@ -276,8 +275,8 @@ margin-top: 112px;
    opacity: 0.6;
    align-self: flex-start;
    width: 494px;
-   margin-left: 113px;
    margin-top: 32px;
+
 }
 .flex__link {
    letter-spacing: 0.04em;
@@ -288,8 +287,8 @@ margin-top: 112px;
    padding: 15px 80px;
    display: inline-block;
    text-decoration: none;
-   align-self: flex-end;
-   margin-right: 114px;
+   margin-top: 120px;
+
 }
 
 .list {
@@ -301,6 +300,10 @@ margin-top: 112px;
    color: #FFFFFF;
    margin-left: 10px;
    padding-top: 64px;
+}
+
+.flex__1 {
+   margin-top: 32px;
 }
 
 .all {
@@ -317,7 +320,6 @@ margin-top: 112px;
 
 .footer__container_2 {
    height: 266px;
-   box-sizing: border-box;
 
 }
 
